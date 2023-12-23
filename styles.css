@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url("Images/bg-intro-desktop.png");
+    background-color: hsl(0, 100%, 74%);
+    color: white;
+    font-family: Poppins;
+    font-size: 16px;
+}
+h1{
+    font-weight: 700;
+}
+p{
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+#Interface{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+#Box-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-basis: 40%;
+    width: 80%;
+    margin: 30px;
+}
+#Box-2{
+    max-width: 600px;
+    padding: 20px;
+}
+button
+{
+    padding: 20px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+#upper-btn{
+    width: 100%;
+    background-color: hsl(248, 32%, 49%);
+}
+#entry-form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    justify-content: center;
+    align-items: center;
+}
+input{
+    border-radius: 5px;
+    border: 1px solid hsl(249, 10%, 26%);
+    width: 90%;
+    margin: 20px 0px 0px;
+    height: 35px;
+    padding-left: 10px;
+}
+input:active{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+#lower-btn{
+    width: 90%;
+    background-color: hsl(154, 59%, 51%);
+    margin: 10px 10px;
+}
+#last-line{
+    color: hsl(246, 25%, 77%);
+    font-weight: 400;
+}
+#terms{
+    color: hsl(0, 100%, 74%);
+}
+@media screen and (max-width: 850px) {
+    body {
+        font-family: Poppins;
+        margin: 0;
+        padding: 0;
+        background-color: hsl(0, 100%, 74%) ;
+        background-image: url("images/bg-intro-mobile.png");
+        color: #fff;
+        font-size: 1rem;
+      }
+      #Interface{
+        display: flex;
+        margin: 10px 0;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+      }
+}
