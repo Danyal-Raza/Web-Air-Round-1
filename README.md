@@ -1,6 +1,6 @@
 # Sign Up Form
 
-![Design preview for Sign Up Form](./design/desktop-design.jpg)
+![Design preview for Sign Up Form](./Design/desktop-design.jpg)
 
 ## Welcome! 👋
 
